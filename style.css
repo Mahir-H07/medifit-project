@@ -7,8 +7,8 @@
     box-sizing: border-box;
 }
 
-body{
-   font-family: "Lexend", sans-serif;
+body {
+    font-family: "Lexend", sans-serif;
 }
 
 
@@ -44,7 +44,7 @@ body{
 .logo span {
     font-size: 18px;
     font-weight: 700;
-    
+
 }
 
 .nav ul {
@@ -57,7 +57,7 @@ body{
     text-decoration: none;
     color: rgb(61, 51, 51);
     font-weight: 500;
-    
+
 }
 
 
@@ -81,27 +81,153 @@ body{
 
 .hero-content h1 {
     font-size: 60px;
-    color:rgb(99,73,48);
+    color: rgb(99, 73, 48);
     font-weight: 700;
-    
+
 }
 
 .hero-content p {
     font-size: 20px;
     margin-bottom: 30px;
-    color: rgb(165,151,135);
+    color: rgb(165, 151, 135);
 }
 
 
 .btn {
     text-decoration: none;
-    border-radius: 5px;
-    background-color: rgb(80,50,23);
+    border-radius: 9px;
+    background-color: rgb(80, 50, 23);
     color: #ffffffdc;
     font-weight: 400;
     padding: 20px 25px;
-   
+
 }
+
+
+
+.category-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.category-section h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: rgb(88, 81, 73);
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.category-card .item-count {
+    padding: 5px;
+    text-align: center;
+    color: rgb(122, 115, 107);
+
+}
+
+
+
+.category-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin: 0 auto 15px;
+}
+
+.category-name {
+    padding: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.promotions-section {
+    padding-bottom: 50px;
+}
+
+.promotions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.promo-card {
+    background-color: rgb(242,242,242);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+  
+}
+
+.promo-tag {
+    position: absolute;
+    top: 25px;
+    background-color: rgb(236, 142, 102);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.promo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.promo-content h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.promo-content a {
+    font-size: 18px;
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.promo-image {
+    width: 120px;
+    text-align: right;
+}
+
+.promo-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
 
 
 
